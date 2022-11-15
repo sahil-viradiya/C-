@@ -3,21 +3,17 @@
 using namespace std;
 int main()
 {
-    int year;
-    cout << "Enter Year between 2000 to 3000 : ";
-    cin >> year;
+    int year, cnt = 0;
 
-    if (year >= 2000 && year <= 3000)
+    cout << "yes it's leap year is :";
+    for (int i = 2000; i <= 3000; i++)
     {
-        if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0)
+        if (i % 4 == 0)
         {
-            cout << "yes it's leap year";
-        }
-        else
-        {
-            cout << "it is not leap year";
+            // cout<<i<<endl;
+            cnt++;
         }
     }
-
+    cout << cnt;
     return 0;
 }
