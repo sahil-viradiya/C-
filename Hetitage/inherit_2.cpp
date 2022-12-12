@@ -7,7 +7,7 @@ class Mother
 public:
     void display()
     {
-        cout << "I love my son .... ";
+        cout << "I love my son .....";
     }
 };
 
