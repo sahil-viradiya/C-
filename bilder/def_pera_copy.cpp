@@ -11,7 +11,7 @@ private:
 public:
     Store()
     { // default
-        cout << "Enter Store Name : ";
+        cout << "Enter Store Name  : ";
         cin >> store_name;
     }
     void print()
